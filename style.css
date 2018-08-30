@@ -8,10 +8,7 @@ header {
     width: 100vw;
 }
 body, html {
-    margin:0px 0px 0px 0px;
-    height: 100%;
-    padding-right: 0px;
-    border: 0px;
+    overflow-x: hidden;
     background-color:white;
     font-family: sans-serif;
 }
@@ -123,7 +120,7 @@ article{
     align-items: center;
     flex-direction: column;
     padding:10px 10px;
-    width:400px;
+    width:350px;
     height:auto;
     background-color:white;
 }
